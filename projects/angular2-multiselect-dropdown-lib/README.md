@@ -1,5 +1,5 @@
 # ⚠️ Warning
-This library is a fork of [angular2-multiselect-dropdown](https://github.com/CuppaLabs/angular2-multiselect-dropdown) that is compatible with Angular 16. This fork does not have the intention to continue the support of this library and comes with no guarantees. Please use at your own discretion.
+This library is a fork of [angular2-multiselect-dropdown](https://github.com/CuppaLabs/angular2-multiselect-dropdown) that is compatible with Angular 16 and 17. This fork does not have the intention to continue the support of this library and comes with no guarantees. Please use at your own discretion.
 
 
 # Angular 2/4/6/8 Multiselect Dropdown
