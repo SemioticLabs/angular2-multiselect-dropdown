@@ -1,9 +1,9 @@
 {
   "name": "@samotics/angular2-multiselect-dropdown",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "license": "MIT",
   "author": "Samotics",
-  "description": "Angular Multiselect dropdown component library for Angular version 16",
+  "description": "Angular Multiselect dropdown component library for Angular version 17",
   "keywords": [
     "angular 2 multiselect dropdown",
     "angular 4 multiselect dropdown",

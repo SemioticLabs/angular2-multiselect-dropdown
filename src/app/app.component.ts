@@ -58,12 +58,10 @@ export class AppComponent implements OnInit {
 
   constructor(public updates: SwUpdate, private checkForUpdateService: CheckForUpdateService,
      private router: Router, private activatedRoute: ActivatedRoute){
-    this.updates.available.subscribe((event) => {
-      this.updateToLatest();
-    });
-    this.updates.activated.subscribe(event => {
-      console.log('old version was', event.previous);
-      console.log('new version is', event.current);
+    this.updates.versionUpdates.subscribe((event) => {
+      if (event.type === "VERSION_READY") {
+            this.updateToLatest();
+      }
     });
     console.log(this.router.config)
     this.links = this.router.config;
