@@ -1,6 +1,6 @@
 {
   "name": "@samotics/angular2-multiselect-dropdown",
-  "version": "17.0.4",
+  "version": "17.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
